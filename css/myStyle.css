@@ -1,0 +1,449 @@
+
+
+/* =============== HEADING SECTION ============*/
+
+#mainBtn {
+    color: white;
+    font-size: 20px;
+    padding: 10px 0 0;
+    width: 60px;
+}
+
+#mainBtn:hover {
+    cursor: pointer;
+    color: #F05F40;
+}
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  text-align: center;
+    text-shadow: 2px 2px 30px rgba(255, 255, 255, 0.2);
+  color: white;
+  background-image: url("../img/night-lights-hd-faded.jpg");
+    background-color: black;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-content-inner {
+    position: relative;
+    top: -50px;
+}
+
+/*
+.nav-link:hover {
+    border-bottom: 2px solid rgba(240, 95, 64, 1);
+}
+*/
+
+/*<========== TYPE HEADER ===========>*/
+
+h1 {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 0.05em;
+    
+    animation: type 3.5s steps(30, end);
+}
+
+#homeHeading span {
+    animation: blink 1s infinite;
+    font-size: 2em;
+    color: rgba(240, 95, 64, 1);
+}
+
+@keyframes type{ 
+  from { width: 0; }
+    to {width: 100%}
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+/*
+/* DEMO-SPECIFIC STYLES */
+/*
+.typewriter {
+  color: #fff;
+  
+  overflow: hidden; 
+  border-right: .15em solid rgba(240, 95, 64, 1); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .05em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+}
+*/
+
+/* The typing effect */
+/*
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+*/
+
+/* The typewriter cursor effect */
+/*
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(240, 95, 64, 1) }
+}
+*/
+
+#slogan {
+    margin-bottom: 100px;
+}
+
+
+.btn-primary {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+    border: solid 1px;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    padding: 12px;
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.2);
+    margin-top: 150px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 1px;
+}
+
+.btn-primary:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 1px;
+}
+
+.btn-primary:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 1px;
+}
+
+
+
+
+/* =============== ABOUT SECTION ============*/
+
+
+
+
+#aboutMe {
+    min-height: 100%;
+}
+
+
+
+.profile-pic {
+    height: 150px;
+    border-radius: 50%;
+    margin: 50px 0 80px;
+}
+
+.introLine {
+    color: white;
+    font-size: 1.1em;
+}
+/*
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+*/
+
+
+/* =============== TIMELINE SECTION ============*/
+
+
+
+/*
+.aboutTl {
+    background-image: url("../../img/bokeh-lights-night-86084.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+*/
+
+#parallax {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/paralaxlights.jpg");
+    /*background-image: url("../../img/bokeh-lights-night-86084.jpeg");*/
+    background-attachment: fixed;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-cont {
+    text-shadow: 2px 2px 30px black;
+}
+
+.tl-header {
+    margin-bottom: 70px;
+}
+
+
+.tl-heading {
+    color: white;
+}
+
+.tl-subhead {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 50px;
+}
+
+.timeline-heading {
+    color: white;
+}
+
+.timeline-body {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.myCoding {
+    text-align: center;
+    line-height: 1.3em;
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+}
+
+
+/* =============== SKILLS SECTION ============*/
+
+#services {
+    min-height: 100%;
+}
+
+.row {
+    justify-content: center;
+}
+
+.skills-subhead {
+    margin: 20px 0;
+}
+
+.sr-icons {
+    width: 100px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.html-icon {
+    box-shadow: 2px 2px 20px rgba(229, 76, 33, 0.5); 
+}
+
+.css-icon {
+    box-shadow: 2px 2px 20px rgba(27, 115, 186, 0.7); 
+}
+
+.js-icon {
+    box-shadow: 2px 2px 20px rgba(239, 199, 37, 0.7); 
+}
+
+.cc-icon {
+    box-shadow: 2px 2px 20px rgba(174, 7, 18, 0.5); 
+}
+
+.csharp-icon {
+    box-shadow: 2px 2px 20px rgba(46, 0, 114, 0.5);
+}
+
+.asp-icon {
+    box-shadow: 2px 2px 20px rgba(19, 128, 195, 0.5); 
+}
+
+.comm-icon {
+    box-shadow: 2px 2px 20px rgba(25, 202, 140, 0.6); 
+}
+
+.org-icon {
+    box-shadow: 2px 2px 20px rgba(133, 23, 50, 0.6); 
+}
+
+.eye-icon {
+    box-shadow: 2px 2px 20px rgba(33, 95, 146, 0.5); 
+}
+
+.bulb-icon {
+    box-shadow: 2px 2px 20px rgba(237, 193, 14, 0.6); 
+}
+
+.cv-icon {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.front-end {
+    margin: 30px auto 60px;
+}
+
+.back-end {
+    margin: 30px auto 60px;
+    
+}
+
+/*
+.sr-icons:hover {
+    width: 120px;
+}
+*/
+
+
+/* =============== PROJECTS SECTION ============*/
+
+#portfolio {
+    min-height: 100%;
+}
+
+.portfolio-item {
+    padding: 0;
+    margin: 0;
+}
+
+.all-projects {
+    margin-top: 50px ;
+}
+
+.btn-success a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+.proj-header {
+    padding: 60px 0 50px;
+}
+
+.portfolio-box-caption:hover {
+    opacity: 1;
+    background-color: rgba(240, 95, 64, 0.5);
+    overflow: hidden;
+}
+*/
+
+
+/*
+.imgBox { 
+    display: inline-block; 
+    overflow: hidden; 
+    margin: 0;
+  }
+  .imgBox img {
+    display: block; 
+    transition: .3s ease-in-out;
+  }
+
+  .imgBox:hover img {
+    transform: scale(1.3);
+  }
+*/
+
+/*
+.portfolio-box:hover {
+    transform: scale(1.1);
+}
+*/
+
+
+/* =============== PORTALS SECTION ============*/
+
+/*
+.portfolio-modal .modal-dialog .modal-content {
+    padding: 20px;
+}
+*/
+
+.modal-content {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.modal-body {
+    padding: 0 0 100px;
+}
+
+.img-port {
+    height: 250px;
+    width: 200px;
+}
+
+/*
+.portfolio-modal .close-modal {
+    top: 5px;
+    right: 5px;
+}
+*/
+
+/*
+.portfolio-modal .modal-dialog .modal-content h2 {
+    font-size: 2.5em;
+    padding: 30px 30px 0;
+}
+*/
+
+/* =============== CONTACT SECTION ============*/
+
+#contact {
+    height: 100%;
+    padding-top: 50px;
+/*    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../../img/desk-pineapple.jpeg");*/
+    background-image: url("../img/pexels-photo-66401.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-info {
+    margin: 10px auto;
+}
+
+.cont-heading {
+    color: white;
+}
+
+.cont-header p, #contact p, #contact a {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 2px 80px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: rgba(240, 95, 64, 1);
+}
+
+.sr-contact {
+    color: rgba(240, 95, 64, 1);
+    font-size: 3em;
+}
+
+footer {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+
+@media only screen and (min-width: 992px) {
+    
+    
+    
+}
